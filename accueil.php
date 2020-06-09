@@ -14,7 +14,7 @@
         <div class="back1 col-lg-4 col-md-12">
             <h2>Maintenance Web Site</h2>
             <button class="button"onclick="document.getElementById('id01').style.display='block'" >connexion</button>
-            <p>si vous avez pas un compte <a class="inscrire"onclick="document.getElementById('id01').style.display='block'">inscrivez-vous</a></p>
+            
             <div id="id01" class="modal">
                 <form class="modal-content animate" action="/action_page.php" method="post">
                     <div class="imgcontainer">
