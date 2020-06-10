@@ -43,9 +43,19 @@
   align-items: center;
   flex-direction: column;
 }
+
+
+.back .back3{
+  padding-top: 18%;
+  margin-left:2% ;
+  
+}
+
+
 .back .back1 h2{
   margin-bottom: 20px;
 }
+
 .back .back1 p{
   font-size:  14px;
 }

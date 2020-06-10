@@ -1,6 +1,7 @@
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="accueil.css">   
+    <link rel="stylesheet" href="CSS.css">  
+ 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css"> 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="shortcut icon" type="image/jpg" href="img/logo.png" >

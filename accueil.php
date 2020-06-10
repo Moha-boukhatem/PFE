@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <?php include("php/head.php")?>
-  <title>Document</title>
+  <title>HYPROC</title>
 </head>
 
 
