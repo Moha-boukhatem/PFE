@@ -10,7 +10,7 @@
         <div class="row">
             <div class="back2 col-lg-4 col-md-12">
                 <h2>Demandes de Travail</h2>
-                <a href="demandeTravail.php"><p>demande_1</p></a>
+                <a href="interfaceSecondaire/demandeTravail.php"><p>demande_1</p></a>
                 <a href="#"><p>demande_2</p></a>
                 <a href="#"><p>demande_3</p></a>
                 <a href="#"><p>demande_4</p></a>
@@ -22,7 +22,7 @@
             </div>
             
             <div class="back3 col-lg-7 col-md-12">
-                <a class="haha"href="ajouterDemandeTravail.php"><button class="button">Créer Une Demande de travail</button></a>
+                <a class="haha"href="interfaceSecondaire/ajouterDemandeTravail.php"><button class="button">Ajouter Une Demande de travail</button></a>
             </div>    
         </div>
     </section>
