@@ -11,7 +11,7 @@
 
             <div class="back2 col-lg-4 col-md-4">
                 <h2>Demandes de Travail</h2>
-                <a href="interfaceSecondaire/demandeTravail.php"><p>demande_1</p></a>
+                <a href="interfaceSecondaire/afficherDemandeTravail.php"><p>demande_1</p></a>
                 <a href="#"><p>demande_2</p></a>
                 <a href="#"><p>demande_3</p></a>
                 <a href="#"><p>demande_4</p></a>
@@ -27,7 +27,7 @@
             
             <div class="back2 col-lg-4 col-md-5">
                 <h2>Ordres de Travail</h2>
-                <a href="interfaceSecondaire/ordreTravail.php"><p>ordre_1</p></a>
+                <a href="interfaceSecondaire/afficherOrdreTravail.php"><p>ordre_1</p></a>
                 <a href="#"><p>ordre_2</p></a>
                 <a href="#"><p>ordre_3</p></a>
                 <a href="#"><p>ordre_4</p></a>

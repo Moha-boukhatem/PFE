@@ -23,7 +23,7 @@
             
             <div class="back2 col-lg-4 col-md-4">
                 <h2>Rapports</h2>
-                <a href="interfaceSecondaire/rapport.php"><p>rapport_1</p></a>
+                <a href="interfaceSecondaire/afficherRapport.php"><p>rapport_1</p></a>
                 <a href="#"><p>rapport_2</p></a>
                 <a href="#"><p>rapport_3</p></a>
                 <a href="#"><p>rapport_4</p></a>
@@ -36,7 +36,7 @@
             
             <div class="back2 col-lg-4 col-md-4">
                 <h2>Ordres de Travail</h2>
-                <a href="interfaceSecondaire/ordreTravail.php"><p>ordre_1</p></a>
+                <a href="interfaceSecondaire/afficherOrdreTravail.php"><p>ordre_1</p></a>
                 <a href="#"><p>ordre_2</p></a>
                 <a href="#"><p>ordre_3</p></a>
                 <a href="#"><p>ordre_4</p></a>
