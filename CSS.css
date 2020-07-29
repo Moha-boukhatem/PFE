@@ -9,8 +9,6 @@
   text-align: center;
   background-color: white;
 }
-
-
 .header {
   background-image: linear-gradient(#ECEBF5,white);
   
@@ -225,4 +223,18 @@ input[type=text], input[type=password] {
     }
   }
 
+  .chefdepartement section{
+    
+    padding-bottom: 8%;
+    padding-top: 8%;
+  }
+  .chefdepartement section .element{
+   padding-bottom: 7%; 
+   
+  }
+
+  .chefdepartement a h2:hover{
+    font-weight: 600;  
+
+  }
   
