@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <?php include("php/head.php")?>
-  <title>HYPROC</title>
+  <title>Hyproc</title>
 </head>
 
 
@@ -15,7 +15,7 @@
             <h2>Maintenance Web Site</h2>
             <button class="button"onclick="document.getElementById('id01').style.display='block'" >connexion</button>
             
-            <p>Vous n'avez pas un compte ? <a class="inscrire">Inscrivez-vous</a></p>
+            <p>Vous n'avez pas un compte ? <a class="inscrire" onclick="document.getElementById('id02').style.display='block'">Inscrivez-vous</a></p>
             <div id="id01" class="modal">
                 <form class="modal-content animate" action="/action_page.php" method="post">
                     <div class="imgcontainer">
@@ -28,12 +28,32 @@
                         <label for="psw"><b>Mot de passe</b></label>
                         <input type="password" placeholder="Enter Password" name="psw" required>
                         <button type="submit">connexion</button>
-                        <label><input type="checkbox" checked="checked" name="remember"> Remember me</label>
                     </div>
         
                     <div class="container" style="background-color:#f1f1f1">
                         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                        <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                </form>
+            </div>
+
+            <div id="id02" class="modal">
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    </div>
+                
+                    <div class="container">
+                        <label for="uname"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        <label for="psw"><b>Mot de passe</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <label for="psw"><b>Confirmer Mot de passe</b></label>
+                        <input type="password" placeholder="Confirm Password" name="psw" required>
+                        <button type="submit">connexion</button>
+                    </div>
+        
+                    <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
                     </div>
                 </form>
             </div>
@@ -45,7 +65,7 @@
                     modal.style.display = "none";
                 }
             }
-            var modal1 = document.getElementById('id01');
+            var modal = document.getElementById('id02');
             window.onclick = function(event) {
                     if (event.target == modal) {
                     modal.style.display = "none";
