@@ -11,7 +11,7 @@
 
             <div class="back2 col-lg-4 col-md-4">
                 <h2>Demandes de Travail</h2>
-                <a href="interfaceSecondaire/afficherDemandeTravail.php"><p>demande_1</p></a>
+                <a href="afficherDemandeTravail.php"><p>demande_1</p></a>
                 <a href="#"><p>demande_2</p></a>
                 <a href="#"><p>demande_3</p></a>
                 <a href="#"><p>demande_4</p></a>
@@ -22,12 +22,12 @@
             </div>
             
             <div class="back3 col-lg-3 col-md-4">
-                <a href="interfaceSecondaire/ajouterDemandeTravail.php"><button class="button">Ajouter DT</button></a>
+                <a href="ajouterDemandeTravail.php"><button class="button">Ajouter DT</button></a>
             </div>   
             
             <div class="back2 col-lg-4 col-md-5">
                 <h2>Ordres de Travail</h2>
-                <a href="interfaceSecondaire/afficherOrdreTravail.php"><p>ordre_1</p></a>
+                <a href="afficherOrdreTravail.php"><p>ordre_1</p></a>
                 <a href="#"><p>ordre_2</p></a>
                 <a href="#"><p>ordre_3</p></a>
                 <a href="#"><p>ordre_4</p></a>

@@ -11,29 +11,31 @@
             
             <div class="row">
                 <div class="back2 col-lg-4 col-md-4">
-                    <a href="interfaceSecondaire/pageDemandeTravail.php"><h2>Demandes de Travail</h2></a>
+                    <a href="pageDemandeTravail.php"><h2>Demandes de Travail</h2></a>
                 </div>
                 
                 <div class="back2 col-lg-4 col-md-4">
-                    <a href="interfaceSecondaire/pageRapport.php"><h2>Rapports</h2></a>
+                    <a href="pageRapport.php"><h2>Rapports</h2></a>
                 </div>   
                 
                 <div class="back2 col-lg-4 col-md-4">
-                    <a href="interfaceSecondaire/pageOrdreTravail.php"><h2>Ordres de Travail</h2></a>
+                    <a href="pageOrdreTravail.php"><h2>Ordres de Travail</h2></a>
                 </div>
             </div>
+
+        
             
-            <div class="row">
+            <div style="margin-top:6.5%"class="row">
                 <div class="back2 col-lg-4 col-md-4">
-                    <a href="interfaceSecondaire/equipements.php"><h2>Equipements</h2></a>
+                    <a href="equipements.php"><h2>Equipements</h2></a>
                 </div>
                 
                 <div class="back2 col-lg-4 col-md-4">
-                    <a href="interfaceSecondaire/outillages.php"><h2>Outillages</h2></a>
+                    <a href="outillages.php"><h2>Outillages</h2></a>
                 </div>   
                 
                 <div class="back2 col-lg-4 col-md-4">
-                    <a href="interfaceSecondaire/ouvriers.php"><h2>Ouvriers</h2></a>
+                    <a href="ouvriers.php"><h2>Ouvriers</h2></a>
                 </div>
             </div>
         </section>
