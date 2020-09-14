@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php include ("php/head.php")?>
+    <?php include ("php/head.php")
+    ?>
     <title>Utilisateur</title>
 </head>
 <body>
-    <?php include ("php/header.php")?>
-    <section class="back col">
-        <div class="row">
-            <div class="back2 col-lg-4 col-md-12">
-            
-            </div>
-            
-            <div class="back3 col-lg-7 col-md-12">
+<?php include ("php/header.php");?>
 
-            </div>    
-        </div>
-    </section>
+<div class="container">
+<h2>Liste Des Ordres Du Travail : </h2>
+          <table class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Objet </th>
+                    <th>Ordre</th>
+                </tr>
+            </thead>
+<?php
+include('bdd.php');
+
+    $sql4="SELECT objet,description,id_o FROM ordre_travaille";
+    $resultat_rapport=$conn->query($sql4);
+if($resultat_rapport->num_rows >0){
+    while($row_rapport = $resultat_rapport->fetch_assoc()){
+        $objet = $row_rapport['objet'] ;
+       
+        $description1 = $row_rapport['description'];
     
+                $id1=$row_rapport['id_o'];
+  
+    echo "
+        <tbody>
+          <tr>
+            <td>".$id1."</td>
+            <td>".$objet."</td>
+            <td>.$description1.</td>
+          </tr>
+        </tbody>";
+}
+   }     
+    
+
+
+           echo "</table>";
+
+
+
+?>
+</div>
 
 </body>
 </html>

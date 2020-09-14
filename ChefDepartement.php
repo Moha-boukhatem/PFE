@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php include ("php/head.php")?>
+    <?php include ("php/head.php")
+    ?>
     <title>ChefSection</title>
 </head>
 <body>
-    <?php include ("php/header.php")?>
+    <?php include ("php/header.php")
+    ?>
     <div class="chefdepartement">
         <section class="back col">
             
@@ -36,13 +38,19 @@
                 
                 <div class="back2 col-lg-4 col-md-4">
                     <a href="ouvriers.php"><h2>Ouvriers</h2></a>
+
                 </div>
             </div>
+ <div class="back2 col-lg-4 col-md-4">
+                        <a href="ajouterOrdreTravailPourChef.php">ajouter un Ordre</a>
+                    </div>
+
         </section>
     <div>
     
 
-    <?php include ("php/footer.php")?>
+    <?php include ("php/footer.php")
+    ?>
 
 </body>
 </html>
