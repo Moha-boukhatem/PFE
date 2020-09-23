@@ -3,7 +3,7 @@
 <head>
     <?php include ("php/head.php")
     ?>
-    <title>ChefSection</title>
+    <title>Home</title>
 </head>
 <body>
     <?php include ("php/header.php")

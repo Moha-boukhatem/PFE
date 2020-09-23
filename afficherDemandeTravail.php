@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php include ("php/head.php")?>
-    <title>Utilisateur</title>
+    <title>D.T</title>
 </head>
 <body>
     <?php include ("php/header.php")?>
