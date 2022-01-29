@@ -1,2 +1,2 @@
 # PFE
-Incomplited Graduation project for my bachelor's degree
+Incomplited project for my bachelor's degree
